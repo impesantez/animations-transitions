@@ -1,0 +1,27 @@
+/* Parte 1: Transición en un cuadro */
+/* Realiza aquí los estilos CSS */
+
+/* Efecto para hover*/
+.transition-box:hover {
+    transform: scale(1.5);
+    background-color: #e74c3c;
+}
+
+/* Parte 2: Animación cíclica */
+/* Realiza aquí los estilos CSS */
+
+/* Keyframes para la animación */
+@keyframes moveAndColor {
+    0% {
+        transform: translateX(0);
+        background-color: purple;
+    }
+    50% {
+        transform: translateX(200px);
+        background-color: orange;
+    }
+    100% {
+        transform: translateX(0);
+        background-color: purple;
+    }
+}
